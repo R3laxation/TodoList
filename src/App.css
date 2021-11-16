@@ -1,0 +1,25 @@
+.App {
+  padding: 30px;
+  display: flex;
+}
+
+.App > div {
+  margin-right: 50px;
+}
+
+.active-button {
+  background-color: mediumspringgreen;
+}
+
+.completed-tasks {
+  opacity: 0.5;
+}
+
+.error-border {
+  border: 2px solid red;
+  outline: none;
+}
+
+.error-message {
+  color: red
+}
